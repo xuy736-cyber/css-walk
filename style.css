@@ -1,0 +1,245 @@
+body {
+        font-family: 'Nunito', sans-serif;
+        background-color: #f7f3eb;
+        color: #333333;
+        margin: 0;
+        padding: 60px 30px;
+    }
+
+      .card {
+        max-width: 850px;
+        margin: 0 auto;
+        text-align: left;
+      }
+
+      h1 {
+       font-size: 56px;
+       font-weight: 400;
+       color: #333333;
+      line-height: 1.15;
+      letter-spacing: -1px;
+      margin: 0 0 30px;
+      }
+
+      p {
+        font-size:20px;
+        line-height: 1.8;
+        color: #666666;
+        max-width: 650px;
+        margin: 0 0 30px;
+      }
+      h2{
+        font-size: 32px;
+        font-weight: 400;
+        color: #333333;
+        margin: 60px 0 20px;
+        border-top: 1px solid #d8d3c8
+        padding-top:20px;
+      }
+      li{
+        font-size:18px;
+        line-height: 1.8;
+        color: #52645b;
+        margin-bottom: 12px;
+      }
+      em{
+        font-size: 32px;
+        letter-spacing: 4px;
+      }
+      strong{
+        color: #8b352b;
+        font-weight: 700;
+      }
+      .calm {
+        font-size: 24px;
+        letter-spacing: 3px;
+        margin-top: 90px;
+      }
+      .happy {
+        font-size: 56px;
+        font-weight: 700;
+        color: #8b352b;
+      }
+      .shop{
+        border-top: 1px solid #d8d3c8;
+        padding: 20px 0;
+      }
+      .shop summary {
+        font-size:20px;
+        cursor: pointer;
+        list-style:none;
+      }
+      .shop summary span{
+        float: right;
+        font-size: 14px;
+        color: #888888;
+      }
+      .shop-content img{
+        width: 100%;
+        max-width: 350px;
+        display: block;
+        margin: 25px 0 20px;
+      }
+      .shop summary {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .samll-title {
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: #888888;
+        margin-bottom: 15px;
+      }
+      .shop {
+        margin-top: 80px;
+        margin-bottom: 100px;
+      }
+      .shop-content p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #666666;
+  max-width: 420px;
+}
+
+.shop-content {
+  padding: 10px 0 25px;
+}
+.walk-notes {
+  margin: 100px 0;
+  border-top: 1px solid #d8d3c8;
+  border-bottom: 1px solid #d8d3c8;
+  padding: 30px 0;
+}
+
+.note-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 18px 0;
+  border-top: 1px solid #e5e1d8;
+}
+
+.note-row:first-of-type {
+  border-top: none;
+}
+
+.note-row span {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  color: #888888;
+}
+
+.note-row p {
+  font-size: 15px;
+  color: #555555;
+  margin: 0;
+  text-align: right;
+}
+.noticed {
+  margin: 100px 0 60px;
+}
+
+.notice-row {
+  display: flex;
+  gap: 30px;
+  padding: 18px 0;
+  border-top: 1px solid #e5e1d8;
+}
+
+.notice-row span {
+  width: 40px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #999999;
+}
+
+.notice-row p {
+  margin: 0;
+  font-size: 16px;
+  color: #555555;
+}
+.intro {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #666666;
+  max-width: 520px;
+  margin-bottom: 80px;
+}
+.top-nav {
+  display: flex;
+  gap: 28px;
+  margin-bottom: 80px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #d8d3c8;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: #666666;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+}
+
+.top-nav a:hover {
+  color: #8b352b;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+  padding-top: 20px;
+  border-top: 1px solid #d8d3c8;
+}
+
+.footer p {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  color: #999999;
+  margin: 0;
+}
+.shop summary {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  padding: 16px 0;
+}
+
+.shop summary span {
+  font-size: 12px;
+  color: #999999;
+  letter-spacing: 1px;
+}
+
+.shop-content {
+  padding: 5px 0 30px;
+}
+
+.shop-content p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  max-width: 420px;
+}
+.shop {
+  border-top: 1px solid #d8d3c8;
+}
+
+.shop:last-of-type {
+  border-bottom: 1px solid #d8d3c8;
+}
+
+.shop summary {
+  transition: color 0.2s ease;
+}
+
+.shop summary:hover {
+  color: #8b352b;
+}
+.shop summary {
+  list-style: none;
+}
+
+.shop summary::-webkit-details-marker {
+  display: none;
+}
